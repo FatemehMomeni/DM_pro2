@@ -11,7 +11,7 @@ from sklearn.metrics import f1_score, confusion_matrix
 
 
 pd.set_option('display.width', 400)
-pd.set_option('display.max_columns', 10)
+pd.set_option('display.max_columns', 100)
 pd.set_option('display.max_rows', None)
 
 
@@ -67,8 +67,9 @@ no_outlier_df = pd.DataFrame(columns=['Agent', 'Stage', 'Product', 'Close_Value'
                                       'Created day', 'Close year', 'Close month', 'Close day'])
 for row in range(len(df['Close_Value'])):
     if not(df.loc[row, 'Close_Value'] < lower_fence or df.loc[row, 'Close_Value'] > upper_fence):
-        no_outlier_df = no_outlier_df.append(df.loc[row], ignore_index=True)
-
+        no_outlier_df = no_outlier_df.append(df.loc[row, ['Agent', 'Stage', 'Product', 'Close_Value', 'Created year',
+                                                    'Created month', 'Created day', 'Close year', 'Close month',
+                                                          'Close day']], ignore_index=True)
 
 # convert categorical data to numeric
 convert_numeric = no_outlier_df.apply(LabelEncoder().fit_transform)
@@ -87,7 +88,6 @@ X_inProgress = pd.DataFrame(inProgress_df, columns=['Agent', 'Product', 'Close_V
                                                     'Created day', 'Close year', 'Close month', 'Close day'])
 
 X_train, X_test, y_train, y_test = dataset_divide(no_inProgress_df)
-dataset_divide(no_inProgress_df)
 
 
 # decision tree
@@ -119,7 +119,6 @@ for row in range(len(convert_numeric)):
         np.delete(y_predict, 0)
 
 X_train, X_test, y_train, y_test = dataset_divide(convert_numeric)
-dataset_divide(convert_numeric)
 
 print("Random Forest:")
 output(rf, True)
