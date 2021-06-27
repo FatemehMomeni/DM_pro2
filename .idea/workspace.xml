@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62181513-b943-4e3b-a163-1ef01ac3e4d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DM_pro2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +30,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.tmp">
+  <component name="RunManager" selected="Python.classification">
     <configuration name="classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DM_pro2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tmp" />
         <item itemvalue="Python.classification" />
+        <item itemvalue="Python.tmp" />
       </list>
     </recent_temporary>
   </component>
@@ -99,29 +93,48 @@
       <option name="presentableId" value="Default" />
       <updated>1623049079933</updated>
     </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="commit">
+      <created>1624693882450</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1624693882450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624627267746">
+    <state x="287" y="0" key="CommitChangelistDialog2" timestamp="1624693880000">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624627267746" />
-    <state width="1345" height="239" key="GridCell.Tab.0.bottom" timestamp="1624693552139">
+    <state x="287" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1624693880000" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1624707737781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624693552139" />
-    <state width="1345" height="239" key="GridCell.Tab.0.center" timestamp="1624693552139">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624707737781" />
+    <state width="1345" height="309" key="GridCell.Tab.0.bottom" timestamp="1624796642712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624693552139" />
-    <state width="1345" height="239" key="GridCell.Tab.0.left" timestamp="1624693552139">
+    <state width="1345" height="309" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624796642712" />
+    <state width="1345" height="309" key="GridCell.Tab.0.center" timestamp="1624796642711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624693552139" />
-    <state width="1345" height="239" key="GridCell.Tab.0.right" timestamp="1624693552139">
+    <state width="1345" height="309" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624796642711" />
+    <state width="1345" height="309" key="GridCell.Tab.0.left" timestamp="1624796642709">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624693552139" />
+    <state width="1345" height="309" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624796642709" />
+    <state width="1345" height="309" key="GridCell.Tab.0.right" timestamp="1624796642712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="309" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624796642712" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624693859592">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1624693859592" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624635908723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
