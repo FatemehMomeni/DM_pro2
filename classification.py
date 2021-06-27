@@ -1,4 +1,3 @@
-import xlrd
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -117,6 +116,7 @@ for row in range(len(convert_numeric)):
     if convert_numeric.loc[row, 'Stage'] == 0:
         convert_numeric.loc[row, 'Stage'] = y_predict[0]
         np.delete(y_predict, 0)
+
 
 X_train, X_test, y_train, y_test = dataset_divide(convert_numeric)
 
